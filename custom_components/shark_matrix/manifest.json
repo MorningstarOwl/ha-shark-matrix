@@ -1,0 +1,12 @@
+{
+  "domain": "shark_matrix",
+  "name": "Shark Matrix (AWS)",
+  "codeowners": ["@MorningstarOwl"],
+  "config_flow": true,
+  "documentation": "https://github.com/MorningstarOwl/ha-shark-matrix",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/MorningstarOwl/ha-shark-matrix/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

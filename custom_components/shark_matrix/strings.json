@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Shark Matrix (AWS backend)",
+        "description": "Enter an Auth0 refresh token obtained for your SharkClean account and your household ID. See the integration README for how to get these.",
+        "data": {
+          "refresh_token": "Auth0 refresh token",
+          "household_id": "Household ID"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Could not refresh the token. The refresh token may be invalid or expired.",
+      "cannot_connect": "Could not reach the SharkNinja (skegox) API.",
+      "no_devices": "No robots were found for this household.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This account is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "battery": { "name": "Battery" },
+      "error_code": { "name": "Error code" },
+      "rssi": { "name": "Wi-Fi signal" }
+    }
+  }
+}

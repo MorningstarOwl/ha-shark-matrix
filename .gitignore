@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Local test environment (not part of the integration)
+.venv-ha/
+.testdeps/
+.uv-python/

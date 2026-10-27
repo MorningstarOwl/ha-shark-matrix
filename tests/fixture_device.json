@@ -1,0 +1,979 @@
+{
+    "userId": "00000000-0000-0000-0000-000000000000",
+    "householdId": "01EXAMPLEHOUSEHOLDID000000",
+    "metadata": {
+        "deviceName": "Robot Vacuum",
+        "lastCarpetDetect": "",
+        "lastCarpetVerificationAcceptance": "",
+        "lastCarpetVerificationRun": "",
+        "rotation": 0
+    },
+    "registry": {
+        "Battery_Serial_Num": "EXAMPLEBAT-SNDEXAMPLE0000000",
+        "Device_Model_Number": "RV230BEDUS",
+        "Device_Serial_Num": "RV230BEDUS_EXAMPLE00000",
+        "FW_VERSION": "V1.1.11-20260730V6.6.10-P11.N3308.8.0-Jul_30_2024Lidar2_0M1.1.92Lidar2_0B1.4.0TB2.6.044.ccm16",
+        "Main_PCB_BL_Version": "Lidar2_0B1.4.0",
+        "Main_PCB_FW_Version": "Lidar2_0M1.1.92",
+        "Main_PCB_HW_Version": "Lidar2_0PIXART_H170000",
+        "Nav_Module_App_Version": "V6.6.10-P11.N3308.8.0-Jul_30_2024",
+        "Nav_Module_FW_Version": "V1.1.11-20260730",
+        "Robot_Firmware_Version": "AV1.1.11-20260730PLidar2_0M1.1.92TB2.6.044.ccm16",
+        "SCM_FW_Version": "TB2.6.044.ccm16",
+        "brandName": "Shark",
+        "ipAddress": "192.0.2.10",
+        "macAddress": "000000000000",
+        "modelNumber": "RV2500AAB",
+        "serialNumber": "SNDEXAMPLE0000000",
+        "template_version": "version_1.25003"
+    },
+    "manufacturingInfo": {
+        "decoded": true,
+        "serialNumber": "RV230BEDUS_EXAMPLE00000",
+        "dateCode": "0000",
+        "dateOfProduction": "2024-01-01",
+        "factoryCode": "XX",
+        "factoryName": "Example Factory",
+        "factoryLine": "00",
+        "indexingNumber": "0000"
+    },
+    "robotDockFw": {
+        "status": "Unknown",
+        "reason": "Unrecognized Robot Branch"
+    },
+    "shadow": {
+        "properties": {
+            "desired": {
+                "get_status": {
+                    "value": true,
+                    "updatedAt": "2026-01-26T02:57:58.000Z"
+                },
+                "TimeZoneName": {
+                    "value": "America/Denver",
+                    "updatedAt": "2026-01-26T02:57:58.000Z"
+                },
+                "Schedule": {
+                    "Sunday": {
+                        "value": [
+                            {
+                                "Name": "",
+                                "Time": "21:00",
+                                "Enabled": true,
+                                "Operating_Mode": 2
+                            }
+                        ],
+                        "updatedAt": "2026-03-02T02:48:37.000Z"
+                    },
+                    "Monday": {
+                        "value": [
+                            {
+                                "Name": "",
+                                "Time": "21:00",
+                                "Enabled": true,
+                                "Operating_Mode": 2
+                            }
+                        ],
+                        "updatedAt": "2026-03-02T02:48:37.000Z"
+                    },
+                    "Tuesday": {
+                        "value": [
+                            {
+                                "Name": "",
+                                "Time": "21:00",
+                                "Enabled": true,
+                                "Operating_Mode": 2
+                            }
+                        ],
+                        "updatedAt": "2026-03-02T02:48:37.000Z"
+                    },
+                    "Wednesday": {
+                        "value": [
+                            {
+                                "Name": "",
+                                "Time": "21:00",
+                                "Enabled": true,
+                                "Operating_Mode": 2
+                            }
+                        ],
+                        "updatedAt": "2026-03-02T02:48:37.000Z"
+                    },
+                    "Thursday": {
+                        "value": [
+                            {
+                                "Name": "",
+                                "Time": "21:00",
+                                "Enabled": true,
+                                "Operating_Mode": 2
+                            }
+                        ],
+                        "updatedAt": "2026-03-02T02:48:37.000Z"
+                    },
+                    "Friday": {
+                        "value": [
+                            {
+                                "Name": "",
+                                "Time": "21:00",
+                                "Enabled": true,
+                                "Operating_Mode": 2
+                            }
+                        ],
+                        "updatedAt": "2026-03-02T02:48:37.000Z"
+                    },
+                    "Saturday": {
+                        "value": [
+                            {
+                                "Name": "",
+                                "Time": "21:00",
+                                "Enabled": true,
+                                "Operating_Mode": 2
+                            }
+                        ],
+                        "updatedAt": "2026-03-02T02:48:37.000Z"
+                    }
+                },
+                "MARD": {
+                    "value": "2026-07-05T22:30:58Z.bin",
+                    "updatedAt": "2026-07-05T22:30:58.000Z"
+                },
+                "Zones": {
+                    "value": "2026-07-05T22:30:51Z.bin",
+                    "updatedAt": "2026-07-05T22:30:51.000Z"
+                },
+                "MapExploreStatus": {
+                    "value": "Success-Explore",
+                    "updatedAt": "2025-09-15T23:15:14.000Z"
+                },
+                "Map_Review_Status": {
+                    "value": "Success-MapReview",
+                    "updatedAt": "2026-07-05T22:29:40.000Z"
+                },
+                "DND_Time_Control": {
+                    "value": "",
+                    "updatedAt": "2025-09-15T23:15:15.000Z"
+                },
+                "Evacuate_Resume": {
+                    "value": true,
+                    "updatedAt": "2025-09-15T23:15:15.000Z"
+                },
+                "Recharge_Resume": {
+                    "value": true,
+                    "updatedAt": "2025-09-15T23:15:16.000Z"
+                },
+                "Robot_Volume_Control": {
+                    "value": 50,
+                    "updatedAt": "2025-09-15T23:15:16.000Z"
+                },
+                "Cloud_Mode": {
+                    "value": 1,
+                    "updatedAt": "2026-01-26T02:57:58.000Z"
+                },
+                "MapsDelete": {
+                    "value": 0,
+                    "updatedAt": "2026-07-05T21:30:13.000Z"
+                },
+                "Operating_Mode": {
+                    "value": 3,
+                    "updatedAt": "2026-10-19T03:07:39.000Z"
+                },
+                "Power_Mode": {
+                    "value": 2,
+                    "updatedAt": "2026-09-28T01:26:06.000Z"
+                }
+            },
+            "reported": {
+                "Evacuating": {
+                    "value": false,
+                    "updatedAt": "2026-10-27T09:56:21.000Z"
+                },
+                "RechargingToResume": {
+                    "value": false,
+                    "updatedAt": "2026-10-27T09:56:21.000Z"
+                },
+                "HardwareConfigSCM": {
+                    "value": "10A061400XXA0002AXX0600PP80XXXX",
+                    "updatedAt": "2026-10-27T09:56:31.000Z"
+                },
+                "Ack_Response": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "clean_sense_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "fileList": {
+                    "clean_session": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "Persistent_Floor_3": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "System_Error_Log": {
+                        "value": {
+                            "fileName": "syslog-1790543151.txt"
+                        },
+                        "updatedAt": "2026-09-27T21:05:54.000Z"
+                    },
+                    "system_logs": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "SCM_Error_Log": {
+                        "value": {
+                            "fileName": "scmlog-1790543155.txt"
+                        },
+                        "updatedAt": "2026-09-27T21:05:58.000Z"
+                    },
+                    "Cleaning_Statistics": {
+                        "value": {
+                            "fileName": "cleanreportfile1-1793070711.bin"
+                        },
+                        "updatedAt": "2026-10-27T03:11:57.000Z"
+                    },
+                    "MARD": {
+                        "value": {
+                            "fileName": "2026-07-05T22:30:58Z-1783290659.bin"
+                        },
+                        "updatedAt": "2026-07-05T22:31:02.000Z"
+                    },
+                    "Operational_Error_Log": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "Visual_Floor_1": {
+                        "value": {
+                            "fileName": "floorRPfile1-1793070713.bin"
+                        },
+                        "updatedAt": "2026-10-27T03:11:59.000Z"
+                    },
+                    "Room_Definition": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "Persistent_Floor_1": {
+                        "value": {
+                            "fileName": "floorPMfile1-1793070715.bin"
+                        },
+                        "updatedAt": "2026-10-27T03:12:01.000Z"
+                    },
+                    "CleanRoomCommand": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "Persistent_Floor_2": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "Visual_Floor_3": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "temp_map": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "Visual_Floor_2": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "Zones": {
+                        "value": {
+                            "fileName": "zones-1783290652.bin"
+                        },
+                        "updatedAt": "2026-07-05T22:30:54.000Z"
+                    },
+                    "clean_report": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "persistent_map": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "zones_ex": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "pbinput": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "quick_clean": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    },
+                    "temp_pboutput": {
+                        "value": {
+                            "fileName": ""
+                        },
+                        "updatedAt": "2026-07-05T21:30:10.000Z"
+                    }
+                },
+                "RunTimeCumulative": {
+                    "value": 109,
+                    "updatedAt": "2026-10-27T03:11:54.000Z"
+                },
+                "DockedStatus": {
+                    "value": true,
+                    "updatedAt": "2026-10-27T09:56:31.000Z"
+                },
+                "Schedule": {
+                    "Sunday": {
+                        "value": [
+                            {
+                                "Time": "21:00",
+                                "Operating_Mode": 2,
+                                "Enabled": true,
+                                "Name": "",
+                                "Action": ""
+                            }
+                        ],
+                        "updatedAt": "2026-10-27T09:56:21.000Z"
+                    },
+                    "Thursday": {
+                        "value": [
+                            {
+                                "Time": "21:00",
+                                "Operating_Mode": 2,
+                                "Enabled": true,
+                                "Name": "",
+                                "Action": ""
+                            }
+                        ],
+                        "updatedAt": "2026-10-27T09:56:21.000Z"
+                    },
+                    "Monday": {
+                        "value": [
+                            {
+                                "Time": "21:00",
+                                "Operating_Mode": 2,
+                                "Enabled": true,
+                                "Name": "",
+                                "Action": ""
+                            }
+                        ],
+                        "updatedAt": "2026-10-27T09:56:21.000Z"
+                    },
+                    "Tuesday": {
+                        "value": [
+                            {
+                                "Time": "21:00",
+                                "Operating_Mode": 2,
+                                "Enabled": true,
+                                "Name": "",
+                                "Action": ""
+                            }
+                        ],
+                        "updatedAt": "2026-10-27T09:56:21.000Z"
+                    },
+                    "Wednesday": {
+                        "value": [
+                            {
+                                "Time": "21:00",
+                                "Operating_Mode": 2,
+                                "Enabled": true,
+                                "Name": "",
+                                "Action": ""
+                            }
+                        ],
+                        "updatedAt": "2026-10-27T09:56:21.000Z"
+                    },
+                    "Friday": {
+                        "value": [
+                            {
+                                "Time": "21:00",
+                                "Operating_Mode": 2,
+                                "Enabled": true,
+                                "Name": "",
+                                "Action": ""
+                            }
+                        ],
+                        "updatedAt": "2026-10-27T09:56:21.000Z"
+                    },
+                    "Saturday": {
+                        "value": [
+                            {
+                                "Time": "21:00",
+                                "Operating_Mode": 2,
+                                "Enabled": true,
+                                "Name": "",
+                                "Action": ""
+                            }
+                        ],
+                        "updatedAt": "2026-10-27T09:56:21.000Z"
+                    }
+                },
+                "Error_Code": {
+                    "value": 0,
+                    "updatedAt": "2026-10-27T09:56:31.000Z"
+                },
+                "dock_knob_status": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "RunTimeCycle": {
+                    "value": 0,
+                    "updatedAt": "2026-10-27T03:11:54.000Z"
+                },
+                "CleanComplete": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Evacuate_Resume": {
+                    "value": true,
+                    "updatedAt": "2026-10-27T09:56:21.000Z"
+                },
+                "Charging_Status": {
+                    "value": true,
+                    "updatedAt": "2026-10-27T09:56:31.000Z"
+                },
+                "ReplaceBattery": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "refill_resume": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Robot_Language_Setting": {
+                    "value": "US-EN",
+                    "updatedAt": "2026-10-27T09:56:31.000Z"
+                },
+                "RecommendRandR": {
+                    "value": false,
+                    "updatedAt": "2026-10-27T03:00:05.000Z"
+                },
+                "MapExploreStatus": {
+                    "value": "Success-Explore",
+                    "updatedAt": "2026-07-05T22:19:14.000Z"
+                },
+                "Water_Tank_Empty": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "OTA_Progress": {
+                    "value": "File Downloaded, requesting Nav to upgrade.",
+                    "updatedAt": "2026-09-05T17:33:16.000Z"
+                },
+                "water_tank_attach_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "cross_hatch": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Operating_Mode": {
+                    "value": 3,
+                    "updatedAt": "2026-10-27T09:56:21.000Z"
+                },
+                "Robot_Volume_Setting": {
+                    "value": 50,
+                    "updatedAt": "2026-10-27T09:56:21.000Z"
+                },
+                "Default_Floor": {
+                    "value": 0,
+                    "updatedAt": "2026-07-05T21:30:10.000Z"
+                },
+                "Power_Mode": {
+                    "value": 0,
+                    "updatedAt": "2026-10-26T03:33:19.000Z"
+                },
+                "clean_stages": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "priming_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Module_debug": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "reloc_status": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Robot_Room_List": {
+                    "value": "4014FFE9:Kitchen:Living Room",
+                    "updatedAt": "2026-07-05T22:30:53.000Z"
+                },
+                "pad_wash_frequency": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "get_status": {
+                    "value": true,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "AreasToClean_V3": {
+                    "value": "*",
+                    "updatedAt": "2026-07-05T21:44:47.000Z"
+                },
+                "water_level_status": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "WiFiModuleSerialNumber": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "vibrator_speed": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Flow_Mode": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Recharge_Resume": {
+                    "value": true,
+                    "updatedAt": "2026-10-27T09:56:21.000Z"
+                },
+                "DockErrorCode": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Extended_Error_Code": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Robot_Volume_Control": {
+                    "value": 50,
+                    "updatedAt": "2026-10-27T09:56:21.000Z"
+                },
+                "DND_Time_Setting": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "robot_status": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "fanjet": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "CleanRatioWarnThresh": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Exec_Response": {
+                    "value": "[VD-region] Region = US",
+                    "updatedAt": "2026-10-27T09:56:31.000Z"
+                },
+                "User_Information": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "error": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "fanjet_speed": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "PbFloor_Confidence": {
+                    "value": 100,
+                    "updatedAt": "2026-10-27T03:11:54.000Z"
+                },
+                "DockInfo": {
+                    "value": "",
+                    "updatedAt": "2026-07-05T21:30:10.000Z"
+                },
+                "CleaningUntilBatteryLow": {
+                    "value": false,
+                    "updatedAt": "2026-10-27T09:56:31.000Z"
+                },
+                "PMLocked": {
+                    "value": false,
+                    "updatedAt": "2026-07-05T21:30:10.000Z"
+                },
+                "CRCount": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "MissionComplete": {
+                    "value": true,
+                    "updatedAt": "2026-10-27T03:11:54.000Z"
+                },
+                "PadDryDuration": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "stain_LED_light": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "JSON_Data_Log": {
+                    "value": "",
+                    "updatedAt": "2026-07-05T21:30:10.000Z"
+                },
+                "room_by_room_clean": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "LowLightMission": {
+                    "value": false,
+                    "updatedAt": "2026-10-27T03:00:05.000Z"
+                },
+                "Cloud_Mode": {
+                    "value": 1,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "cross_hatch_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "DoNotDisturb": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "MapsDelete": {
+                    "value": 0,
+                    "updatedAt": "2026-07-05T21:30:13.000Z"
+                },
+                "migration_auth": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Find_Device": {
+                    "value": false,
+                    "updatedAt": "2026-10-27T09:57:01.000Z"
+                },
+                "DeviceTopicKey": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "DSTObserved": {
+                    "value": true,
+                    "updatedAt": "2026-10-27T09:56:21.000Z"
+                },
+                "ExploreStatus": {
+                    "value": "Success-Explore",
+                    "updatedAt": "2026-07-05T22:19:14.000Z"
+                },
+                "rssi_status": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "DockSensorData": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Areas_To_Clean": {
+                    "value": "",
+                    "updatedAt": "2026-07-05T21:30:10.000Z"
+                },
+                "FanJetSetting": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Refilling": {
+                    "value": false,
+                    "updatedAt": "2026-07-05T21:30:10.000Z"
+                },
+                "AreasToClean_V2": {
+                    "value": "*",
+                    "updatedAt": "2026-07-05T21:44:47.000Z"
+                },
+                "MopPlateAttached": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "CleanUntilBatteryLow": {
+                    "value": false,
+                    "updatedAt": "2026-10-27T09:56:21.000Z"
+                },
+                "CleanRatio": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "LocalizationStatus": {
+                    "value": 0,
+                    "updatedAt": "2026-10-27T03:11:53.000Z"
+                },
+                "evacuate": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "WaterTankInstalled": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "SmartMopEnabled": {
+                    "value": false,
+                    "updatedAt": "2026-07-05T21:30:10.000Z"
+                },
+                "CleanRatioDetails": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "dry_clean_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "CleaningParameters": {
+                    "value": "",
+                    "updatedAt": "2026-07-05T21:30:10.000Z"
+                },
+                "Warning_Code": {
+                    "value": 0,
+                    "updatedAt": "2026-07-05T21:30:10.000Z"
+                },
+                "active_suspension": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "TimeZone": {
+                    "value": -420,
+                    "updatedAt": "2026-10-27T09:56:21.000Z"
+                },
+                "Map_Review_Status": {
+                    "value": "Success-MapReview",
+                    "updatedAt": "2026-07-05T22:29:41.000Z"
+                },
+                "TimeZoneName": {
+                    "value": "America/Denver",
+                    "updatedAt": "2026-10-27T09:56:21.000Z"
+                },
+                "user_consent": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "language": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "dnd_info": {
+                    "id": {
+                        "value": 0,
+                        "updatedAt": "2026-01-26T02:58:00.000Z"
+                    },
+                    "modifier": {
+                        "value": 0,
+                        "updatedAt": "2026-01-26T02:58:00.000Z"
+                    },
+                    "startTimeMin": {
+                        "value": 0,
+                        "updatedAt": "2026-01-26T02:58:00.000Z"
+                    },
+                    "endTimeMin": {
+                        "value": 0,
+                        "updatedAt": "2026-01-26T02:58:00.000Z"
+                    }
+                },
+                "recharge_resume": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "evacuate_resume": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "fan_speed": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "pad_wash": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "pump_speed": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "stain_sensitivity": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "audio_volume": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "pad_dry_time": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "deep_clean_charge_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "app_connected": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "audio_id": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "pad_dry": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "pump_grey_water": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "home_detect": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "suction_power": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "under_glow_lights": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "stain_UV_light": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "live_location_switch": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "off_peak_charging": {
+                    "value": "",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "stain_attack": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "carpet_clean_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "pad_saturation": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "button_sounds": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "warning": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "recharge_resume_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "pad_attach_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "battery_status": {
+                    "value": 0,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "deep_clean_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "wet_clean_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "evacuate_resume_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "total_statistics": {},
+                "refill_resume_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "ultra_clean_status": {
+                    "value": false,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "Send_Error_Logs": {
+                    "value": false,
+                    "updatedAt": "2026-09-27T21:05:58.000Z"
+                },
+                "Exec_Command": {
+                    "value": "keyset:oqAi2veD",
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                },
+                "DeleteMaps": {
+                    "value": 0,
+                    "updatedAt": "2026-07-05T21:30:10.000Z"
+                }
+            }
+        },
+        "index": {
+            "desired": {},
+            "reported": {
+                "BatteryCapacityAbove30": {
+                    "value": true,
+                    "updatedAt": "2026-10-27T09:56:31.000Z"
+                },
+                "DockedStatus": {
+                    "value": true,
+                    "updatedAt": "2026-10-27T09:56:31.000Z"
+                },
+                "Charging_Status": {
+                    "value": true,
+                    "updatedAt": "2026-10-27T09:56:31.000Z"
+                },
+                "Cloud_Mode": {
+                    "value": 1,
+                    "updatedAt": "2026-01-26T02:58:00.000Z"
+                }
+            }
+        }
+    },
+    "packages": {},
+    "telemetry": {
+        "Battery_Capacity": 100,
+        "RSSI": 63,
+        "live_pos": "",
+        "live_progress": {}
+    },
+    "connectivityStatus": {
+        "connected": true,
+        "lastConnectedAt": "2026-10-27T09:56:14.801Z",
+        "lastDisconnectedAt": "2026-10-27T09:55:26.009Z"
+    },
+    "updatedAt": "2026-10-27T09:56:31.366Z",
+    "createdAt": "2025-07-03T19:37:11.999Z"
+}
